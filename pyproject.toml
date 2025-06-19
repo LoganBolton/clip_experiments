@@ -1,0 +1,18 @@
+[project]
+name = "clip-experiments"
+version = "0.1.0"
+description = "CLIP multi-object image classification experiments"
+requires-python = ">=3.8"
+dependencies = [
+    "torch>=1.9.0",
+    "torchvision>=0.10.0",
+    "ftfy",
+    "regex",
+    "Pillow>=8.0.0",
+    "numpy>=1.21.0",
+    "packaging",
+    "tqdm",
+]
+
+[tool.uv]
+dev-dependencies = [] 
